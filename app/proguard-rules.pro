@@ -1,0 +1,3 @@
+-keep class dev.rootops.core.pty.PtyNative { *; }
+-keep class com.jcraft.jsch.** { *; }
+-dontwarn com.jcraft.jsch.**

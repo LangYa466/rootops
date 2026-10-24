@@ -13,6 +13,10 @@ local.properties
 qa/*.png
 qa/.ui.xml
 
+# README assets are tracked (negations keep this explicit if ignore rules move)
+!docs/screenshots/
+!docs/screenshots/*.webp
+
 # Logs and OS junk
 *.log
 .DS_Store
